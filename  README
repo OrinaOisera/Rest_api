@@ -1,0 +1,10 @@
+These are basic  Rest API  principles.
+
+Link: https://www.django-rest-framework.org/tutorial/1-serialization/
+
+1. a = Article (title = 'prezzo' , author = 'mike', email = 'mall@gmail.com')
+2. a.save
+3. serializer = ArticleSerializers(a)
+4. serializer.data
+5.  content = JSONRenderer().render(serializer1.data)
+6.
